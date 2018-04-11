@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Kirby's Dream Land
 header-img: img/home-bg.png
 email: jkirbycampbell@gmail.com
 copyright_name: kirbycampbell
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A Day in the Life/ White Ferrari
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kirbycampbell
