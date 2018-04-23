@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Change is Good"
-date:       2018-04-23 18:30:53 +0000
+date:       2018-04-23 14:30:54 -0400
 permalink:  change_is_good
 ---
 
@@ -20,10 +20,11 @@ def oxford_comma(array)
     array.join
   elsif array.length == 2
     array.join(" and ")
-		end
-```
+		end```
+
 		The trouble began when I wanted to place commas between every item in the array, add an "and" after the second to last item, while not receiving a comma after the "and". 
 		I tried pulling the second to last item out of the final string, which did not work.. I then tried to use
+		
 		```
 last = array.length -2
 		array.insert(0..last, ", ")
